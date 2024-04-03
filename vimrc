@@ -45,7 +45,7 @@ set number
 set relativenumber
 
 " share clipboard with with OS
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 " this seems useful
 set breakindent
@@ -122,7 +122,7 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " MAPPINGS      --- {{{
 
 " Use <Space> as our <Leader> character
-map <Space> <Leader>
+let mapleader=" "
 
 " Type jj to exit insert mode quickly.
 inoremap jj <Esc>
@@ -203,6 +203,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
 Plug 'szw/vim-maximizer'
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()
 
