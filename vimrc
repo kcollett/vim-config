@@ -38,10 +38,25 @@ filetype indent on
 " Turn syntax highlighting on.
 syntax on
 
-" Line numbering
-set number
+" Search down into subfolders.
+" (Provides tab-completion for all file-related tasks.)
+set path+=**
 
-" Make it relative
+" netrw configuration
+let g:netrw_banner=0    " disable banner
+let g:netrw_liststyle=3 " tree view
+" let g:netrw_altv=1      " to open files in v-split
+" hide everything that's in .gitignore
+let g:netrw_list_hide=netrw_gitignore#Hide()
+" also hide these patterns
+" let g:netrw_list_hide.='*.swp,.*.un~'
+"
+" :e folder to active
+" <CR>/v to open file (in h-split)
+" see |netrw-browse-maps| for all the glorious mappings
+
+" Turn on line numbering, and make it relative.
+set number
 set relativenumber
 
 " share clipboard with with OS
@@ -95,6 +110,9 @@ set showmatch
 " Use highlighting when doing a search.
 set hlsearch
 
+" make s//g the default
+set gdefault
+
 " Show partial command you type in the last line of the screen.
 set showcmd
 
@@ -136,7 +154,6 @@ nnoremap N Nzz
 " https://www.reddit.com/r/vim/comments/a8mp8z/comment/ecc0aw4/?utm_source=share&utm_medium=web2x&context=3
 nnoremap <expr> j (v:count > 4 ? "m'" . v:count . 'j' : 'gj')
 nnoremap <expr> k (v:count > 4 ? "m'" . v:count . 'k' : 'gk')
-
 
 " Yank from cursor to the end of line.
 nnoremap Y y$
