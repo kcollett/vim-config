@@ -98,7 +98,7 @@ set nowrap
 set whichwrap=h,l,<,>,[,]
 
 " mark the 80th column
-set colorcolumn=80
+set colorcolumn=+1
 
 " While searching though a file incrementally highlight matching characters as you type.
 set incsearch
