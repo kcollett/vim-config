@@ -146,7 +146,7 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 let mapleader=" "
 
 " Type jj to exit insert mode quickly.
-inoremap jj <Esc>
+inoremap jk <Esc>
 
 " Center the cursor vertically when moving to the next word during a search.
 nnoremap n nzz
