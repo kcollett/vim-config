@@ -138,6 +138,11 @@ set wildmenu
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
+" specify minimum height for MaximizerToggle
+" NB: skipping this for now. See
+" https://github.com/tpope/vim-obsession/issues/4
+" set winminheight=3
+
 " }}}
 
 " MAPPINGS      --- {{{
@@ -146,7 +151,7 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 let mapleader=" "
 
 " Type jj to exit insert mode quickly.
-inoremap jk <Esc>
+inoremap jj <Esc>
 
 " Center the cursor vertically when moving to the next word during a search.
 nnoremap n nzz
