@@ -170,8 +170,8 @@ nnoremap Y y$
 " but these mappings can by useful.
 nnoremap <leader>sh <c-w>s
 nnoremap <leader>sv <c-w>v
-" make current window only one (i.e. maximize)
-" nnoremap <leader>sm <<cmd>only<CR>
+" expand current window
+nnoremap <leader>so <<cmd>only<CR>
 nnoremap <leader>sm <<cmd>MaximizerToggle<CR>
 " equalize all splits
 nnoremap <leader>se <c-w>=
@@ -186,10 +186,10 @@ nnoremap <c-l> <c-w>l
 
 " Resize split windows using arrow keys by pressing:
 " CTRL+UP, CTRL+DOWN, CTRL+LEFT, or CTRL+RIGHT.
-noremap <c-up> <c-w>+
-noremap <c-down> <c-w>-
-noremap <c-left> <c-w>>
-noremap <c-right> <c-w><
+" noremap <c-up> <c-w>+
+" noremap <c-down> <c-w>-
+" noremap <c-left> <c-w>>
+" noremap <c-right> <c-w><
 
 " }}}
 
