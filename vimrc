@@ -10,6 +10,15 @@
 "   restart vim
 "   :PlugInstall
 "
+" Plugin Commands:
+"
+"   :PlugInstall to install the plugins
+"   :PlugUpdate to install/update the plugins
+"   :PlugDiff to review changes from the last update
+"   :PlugClean to remove plugins no longer listed
+"
+"   from https://github.com/junegunn/vim-plug
+"
 " Folding Commands:
 "
 "   zo open  fold under cursor
