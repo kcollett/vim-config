@@ -233,7 +233,7 @@ set laststatus=2
 
 " see vim-plug at https://github.com/junegunn/vim-plug?tab=readme-ov-file
 
-call plug#begin('~/.vim/plugged')
+call plug#begin()
 
 Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
 Plug 'szw/vim-maximizer'
