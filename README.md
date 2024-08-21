@@ -1,7 +1,7 @@
 # vim-config
 To use:
 
-    git clone https://github.com/kcollett/vim-config.git ~/config/vim
+    git clone https://github.com/kcollett/vim-config.git ~/.config/vim
 
 and follow additional instructions in vimrc file.
 
