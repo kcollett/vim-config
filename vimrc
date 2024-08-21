@@ -74,8 +74,10 @@ set clipboard=unnamed
 " this seems useful
 set breakindent
 
-" save undo history in a file
+" save undo history in a file, but put those files in
+" a specific directory to avoid clutter
 set undofile
+set undodir=~/.vimundo
 
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
