@@ -56,9 +56,9 @@ let g:netrw_banner=0    " disable banner
 let g:netrw_liststyle=3 " tree view
 " let g:netrw_altv=1      " to open files in v-split
 " hide everything that's in .gitignore
-let g:netrw_list_hide=netrw_gitignore#Hide()
+" let g:netrw_list_hide=netrw_gitignore#Hide()
 " also hide these patterns
-" let g:netrw_list_hide.='*.swp,.*.un~'
+let g:netrw_list_hide='*.swp,.*.un~'
 "
 " :e folder to active
 " <CR>/v to open file (in h-split)
